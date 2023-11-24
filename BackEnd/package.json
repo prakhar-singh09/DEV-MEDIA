@@ -7,14 +7,14 @@
     "start": "node server",
     "server": "nodemon server",
     "client": "npm start --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "build": "npm"
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "author": "Prakhar Singh",
   "license": "MIT",
   "dependencies": {
     "axios": "^0.21.2",
     "bcryptjs": "^2.4.3",
+    "dotenv": "^16.3.1",
     "env-cmd": "^10.1.0",
     "express": "^4.18.2",
     "express-validator": "^6.13.0",
