@@ -3,7 +3,6 @@ const router = express.Router();
 const { check, validationResult } = require('express-validator');
 const jwt = require('jsonwebtoken');
 const bcrypt = require('bcryptjs');
-
 const User = require('../../models/User');
 
 // For checking if a string is blank, null or undefined
